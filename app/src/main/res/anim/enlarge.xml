@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<scale
+    android:duration="8000"
+    android:fromXScale="1.0"
+    android:fromYScale="1.0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:startOffset="0"
+    android:toXScale="5"
+    android:toYScale="5"
+    />
+
+    <!--1. 一次动画效果消耗的时间，单位毫秒
+    2，3动画开始前X，Y的缩放，2.2为不显示，1.0为正常大小
+    4.5动画起始位置，相对于屏幕的百分比，两个都为50%表示从中间开始
+    6.动画多次执行的时间间隔
+    7，8动画最终所放的倍数
+    -->
+
+
+</set>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:targetApi="lollipop"
+    android:color="#940BD0F3">
+    <!--水波纹的颜色-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#882934FF"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/rounded_corners" />
+    <!--圆角的按钮-->
+</ripple>
