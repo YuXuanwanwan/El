@@ -12,4 +12,5 @@
         android:text="大地图"
         android:textSize="50dp"
         android:background="#FF3D00"/>
+    
 </LinearLayout>
