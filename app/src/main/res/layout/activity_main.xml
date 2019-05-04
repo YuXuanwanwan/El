@@ -5,10 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:paddingLeft="12dp"
-    android:paddingBottom="12dp"
-    android:paddingTop="12dp"
-    android:paddingRight="12dp"
     android:background="#19000000"
     >
 
@@ -16,30 +12,7 @@
         android:id="@+id/Container_ControlTable"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="500dp"
-            android:layout_height="700dp"
-            android:background="@drawable/b" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/btn_1"
-            android:layout_marginTop="500dp"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:background="@drawable/ripple_bg"
-            android:text="Start"
-            android:textColor="#882934FF"
-            android:textSize="40sp"
-            />
-
-    </LinearLayout>
     </FrameLayout>
 
 </LinearLayout>

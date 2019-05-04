@@ -18,11 +18,12 @@ public class Fragment_ControlTable extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.control_table,container,false);
         return view;
+        
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mText= (RelativeLayout) view.findViewById(R.id.LayoutControlTable);
+
     }
 }
