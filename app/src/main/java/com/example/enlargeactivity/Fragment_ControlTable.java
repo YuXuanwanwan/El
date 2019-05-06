@@ -27,6 +27,5 @@ public class Fragment_ControlTable extends Fragment {
             }
         });
         return view;
-        
     }
 }
